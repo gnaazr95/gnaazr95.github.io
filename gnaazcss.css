@@ -1,7 +1,16 @@
-body{
-background-image: url("oceanback.jpg");
-background-repeat:no-repeat;
-background-size:cover;
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body { 
+  margin:0;
+  padding:0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 #Header{
@@ -19,6 +28,7 @@ z-index = -1;
 	color:white;
 	font-family: 'Roboto', sans-serif;
 	font-size: 23px;
+	font-weight:normal;
 }
 .Tag a:hover{
 	color:#d3d3d3;
@@ -38,11 +48,47 @@ z-index = -1;
   transform: scale(0.9);
 }
 
+.slide {
+  position: relative;
+  padding: 25vh 10%;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+	transform-style: inherit;
+}
+
+.slide:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left:0;
+  right:0;
+}
+
+
+
+.slide:nth-child(2n) .title {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.slide:nth-child(2n+1) .title {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.slide, .slide:before {
+  background: 50% 50% / cover;  
+}
+
+
 #Home{
 position:absolute;
 top:1px;
 left: 425px;
-
+z-index = 1000;
 }
 #About{
 position:absolute;
@@ -61,7 +107,7 @@ left: 748px;
 }
 #Contact{
 position:absolute;
-top:1px;
+top:0px;
 left: 873px;
 }
 
@@ -117,3 +163,98 @@ font-weight:normal;
 font-size:30px;
 color:#FFFFCC;
 }
+#title {
+  background-image: url("oceanback.jpg");
+  background-attachment: fixed;  
+}
+
+#slide1:before {
+  background-color:black;
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
+
+#aboutinfo{
+	position:absolute;
+	color:white;
+	font-family: 'Roboto', sans-serif;
+	font-weight:normal;
+	font-size:80px;
+	border-bottom: 2px solid white;
+	top:1%;
+	left:32%;
+}
+
+.paboutinfowhite{
+	position:absolute;
+	color:white;
+	font-family: 'Roboto', sans-serif;
+	font-weight:normal;
+	font-size:80px;
+	top:40%;
+	left:32%;
+}
+
+.paboutinfoblack{
+	position:absolute;
+	color:black;
+	font-family: 'Roboto', sans-serif;
+	font-weight:normal;
+	font-size:80px;
+	top:40%;
+	left:32%;
+}
+
+#skillsinfo
+{
+	position:absolute;
+	font-family: 'Roboto', sans-serif;
+	font-weight:normal;
+	font-size:80px;
+	text-decoration: none;
+    border-bottom: 2px solid black;
+	left:43%;
+	top:2%;
+}
+
+#projectsinfo
+{
+	position:absolute;
+	color:white;
+	font-family: 'Roboto', sans-serif;
+	font-weight:normal;
+	font-size:80px;
+	text-decoration: none;
+    border-bottom: 2px solid white;
+	left:40%;
+	top:2%;
+}
+
+#contactinfo
+{
+	position:absolute;
+	color:black;
+	font-family: 'Roboto', sans-serif;
+	font-weight:normal;
+	font-size:80px;
+	text-decoration: none;
+    border-bottom: 2px solid black;
+	left:40%;
+	top:2%;
+}
+
+#slide2 {
+  background-color:white;
+  background-attachment: fixed;
+}
+
+#slide3:before {
+  background-color:black;
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
+
+#slide4 {
+  background-color:white;
+}
+
