@@ -34,6 +34,7 @@ z-index = -1;
 }
 
 
+
 #githubiconpic
 {
 	position:absolute;
@@ -578,10 +579,10 @@ color:#FFFFCC;
 	color:white;
 	font-family: 'Roboto', sans-serif;
 	font-weight:normal;
-	font-size:80px;
+	font-size:70px;
 	border-bottom: 2px solid white;
-	top:1%;
-	left:32%;
+	top:.5%;
+	left:39%;
 }
 
 .Separator
@@ -604,9 +605,10 @@ color:#FFFFCC;
 	color:white;
 	font-family: 'Roboto', sans-serif;
 	font-weight:normal;
-	font-size:80px;
-	top:40%;
-	left:32%;
+	font-size:27px;
+	top:22%;
+	left:11%;
+	line-height: 150%;
 }
 
 .paboutinfoblack{
