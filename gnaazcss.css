@@ -23,6 +23,35 @@ background-color:none;
 z-index = -1;
 }
 
+@font-face {
+    font-family: facebookfont;
+    src: url(facebookfont.otf);
+}
+
+@font-face {
+    font-family: linkedinfont;
+    src: url(linkedinfont.otf);
+}
+
+
+#githubiconpic
+{
+	position:absolute;
+	top:92.2%;
+	left:79.5%;
+	max-width:2%;
+	max-height:12%;
+}
+
+#gitHub
+{
+position:absolute;
+	top:91.67%;
+	left:79.23%;
+	max-width:5%;
+	max-height:5%;
+}
+
 .Tag a{
 	text-decoration:none;
 	color:white;
@@ -117,7 +146,6 @@ z-index = -1;
 	color:black;
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
-	font-weight:normal;
 }
 
 .BottomInfoBlack a:hover{
@@ -188,6 +216,152 @@ left: 873px;
 position:absolute;
 top:90%;
 left: 35.5%;
+}
+
+.Connect{
+position:absolute;
+top:90%;
+left:65%;
+color:white;
+font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight:normal;
+}
+
+.ConnectBlack{
+position:absolute;
+top:90%;
+left:65%;
+color:black;
+font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight:bold;
+}
+
+.circlefacebook {
+	position:absolute;
+	top:91%;
+	left:71%;
+	width: 35px;
+	height: 35px;
+	border-radius: 50px;
+	border-style:solid;
+	border-color:black;
+}
+.circlefacebook:hover{
+border-color:#800000;
+}
+.circlefacebookwhite{
+	position:absolute;
+	top:91%;
+	left:71%;
+	width: 35px;
+	height: 35px;
+	border-radius: 50px;
+	border-style:solid;
+	border-color:white;
+}
+.circlefacebookwhite:hover{
+border-color:#556b2f;
+}
+.circlelinkedin {
+	position:absolute;
+	top:91%;
+	left:75%;
+	width: 35px;
+	height: 35px;
+	border-radius: 50px;
+	border-style:solid;
+	border-color:black;
+}
+.circlelinkedin:hover{
+border-color:#800000;
+}
+.circlelinkedinwhite{
+	position:absolute;
+	top:91%;
+	left:75%;
+	width: 35px;
+	height: 35px;
+	border-radius: 50px;
+	border-style:solid;
+	border-color:white;
+}
+
+.circlelinkedinwhite:hover{
+border-color:#556b2f;
+}
+
+.circlegithub {
+	position:absolute;
+	top:91%;
+	left:79%;
+	width: 35px;
+	height: 35px;
+	border-radius: 50px;
+	border-style:solid;
+	border-color:black;
+}
+.circlegithub:hover{
+border-color:#800000;
+}
+.circlegithubwhite{
+	position:absolute;
+	top:91%;
+	left:79%;
+	width: 35px;
+	height: 35px;
+	border-radius: 50px;
+	border-style:solid;
+	border-color:white;
+}
+.circlegithubwhite:hover{
+border-color:#556b2f;
+}
+#facebookicon
+{
+	position:absolute;
+	color:white;
+	top:91.7%;
+	left:72.1%;
+	font-family:facebookfont;
+	font-size:26px;
+	text-decoration:bold;
+}
+
+#facebookiconblack
+{
+	position:absolute;
+	color:black;
+	top:91.7%;
+	left:72%;
+	font-family:facebookfont;
+	font-size:30px;
+	text-decoration:bold;
+}
+
+#facebookicon:hover{
+	color:gray;
+}
+
+#linkedinicon
+{
+	position:absolute;
+	color:white;
+	top:92%;
+	left:75.8%;
+	font-family:linkedinfont;
+	font-size:23px;
+}
+
+#linkediniconblack
+{
+	position:absolute;
+	color:black;
+	top:92%;
+	left:75.8%;
+	font-family:linkedinfont;
+	font-size:23px;
 }
 
 #Vertical1
