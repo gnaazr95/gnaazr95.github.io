@@ -786,7 +786,7 @@ color:#FFFFCC;
 	color:black;
 	font-family: 'Roboto', sans-serif;
 	font-weight:normal;
-	font-size:27px;
+	font-size:30px;
 	top:22%;
 	left:11%;
 	line-height: 150%;
@@ -830,9 +830,9 @@ color:#FFFFCC;
 {
 	position:absolute;
 	width:15%;
-	height:15%;
+	height:30%;
 	left:43%;
-	top:70%;
+	top:55%;
 }
 
 #resumepic:hover{
