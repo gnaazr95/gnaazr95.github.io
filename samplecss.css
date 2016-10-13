@@ -36,7 +36,15 @@ background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, F
           min-height: 100%;
 }
 
+@font-face {
+    font-family: facebookfont;
+    src: url(facebookfont.otf);
+}
 
+@font-face {
+    font-family: linkedinfont;
+    src: url(linkedinfont.otf);
+}
 .BottomInfo a
 {
   text-decoration:none;
