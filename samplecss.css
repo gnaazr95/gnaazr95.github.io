@@ -172,14 +172,10 @@ border-bottom-right-radius:260em;
 .Separator
 {
   position:absolute;
-  left:5%;
   top:88%;
+  width:100%;
   border-style:solid;
-  border-right-width:1200px;
-  border-bottom-width:.1px;
   border-color:#79818d;
-  border-bottom-left-radius:260em;
-  border-bottom-right-radius:260em;
   opacity: 0.3;
     filter: alpha(opacity=30);
 }
@@ -194,7 +190,6 @@ z-index = 1000;
 position:absolute;
 top:90%;
 left:40%;
-border-right: 1px solid white;
 padding-right: 8px;
 }
 #About{
@@ -206,7 +201,6 @@ left: 39.16544655929722%;
 position:absolute;
 top:90%;
 left: 45%;
-border-right: 1px solid white;
 padding-right: 8px;
 }
 #Skills{
@@ -218,7 +212,6 @@ left: 47.21815519765739%;
 position:absolute;
 top:90%;
 left: 50%;
-border-right: 1px solid white;
 padding-right: 8px;
 }
 #Projects{
@@ -230,7 +223,6 @@ left: 54.75841874084919%;
 position:absolute;
 top:90%;
 left: 54.5%;
-border-right: 1px solid white;
 padding-right: 8px;
 }
 #Contact{
@@ -242,7 +234,6 @@ left: 63.90922401171303%;
 position:absolute;
 top:90%;
 left: 60.5%;
-#border-right: 1px solid white;
 padding-right: 8px;
 }
 
@@ -250,7 +241,6 @@ padding-right: 8px;
 position:absolute;
 top:90%;
 left:40%;
-border-right: 1px solid black;
 padding-right: 8px;
 }
 
@@ -258,7 +248,6 @@ padding-right: 8px;
 position:absolute;
 top:90%;
 left: 45%;
-border-right: 1px solid black;
 padding-right: 8px;
 }
 
@@ -266,7 +255,6 @@ padding-right: 8px;
 position:absolute;
 top:90%;
 left: 50%;
-border-right: 1px solid black;
 padding-right: 8px;
 }
 
@@ -274,7 +262,6 @@ padding-right: 8px;
 position:absolute;
 top:90%;
 left: 54.5%;
-border-right: 1px solid black;
 padding-right: 8px;
 }
 
@@ -282,7 +269,6 @@ padding-right: 8px;
 position:absolute;
 top:90%;
 left: 60.7%;
-#border-right: 1px solid black;
 padding-right: 8px;
 }
 
@@ -337,7 +323,7 @@ padding-right: 8px;
   width:15%;
   height:30%;
   left:43%;
-  top:55%;
+  top:50%;
 }
 
 #resumepic:hover{
@@ -377,7 +363,7 @@ padding-right: 8px;
   font-family: 'Roboto', sans-serif;
   font-weight:normal;
   font-size:40px;
-  top:25%;
+  top:20%;
   left:35%;
   line-height: 150%;
 }
@@ -385,25 +371,24 @@ padding-right: 8px;
 #projecticongithub
 {
   position:absolute;
-  width:7%;
-  height:10%;
-  left:46%;
-  top:58%;
-}
+  width:9%;
+  height:15%;
+  left:40%;
+  top:50%;
+  padding:1%;
+  opacity: 1.0;
+filter: alpha(opacity=100); /* For IE8 and earlier */
 
-.circlegithubwhiteprojects{
-  position:absolute;
-  top:55%;
-  left:45%;
-  width: 150px;
-  height: 150px;
-  border-radius: 50px;
+ border-radius: 50px;
   border-style:solid;
   border-color:white;
 }
-.circlegithubwhiteprojects:hover{
-border-color:#556b2f;
+#projecticongithub:hover{
+   border-color: #800000;
+  opacity: 0.7;
+      filter: alpha(opacity=70); /* For IE8 and earlier */
 }
+
 
 #contactinfo
 {
@@ -438,44 +423,43 @@ border-color:#556b2f;
   font-family:facebookfont;
   font-size:130px;
   text-decoration:bold;
-}
-
-.circlefacebookcontact{
-  position:absolute;
-  top:45%;
-  left:25%;
-  width: 150px;
-  height: 150px;
-  border-radius: 50px;
+    opacity: 1.0;
+filter: alpha(opacity=100); /* For IE8 and earlier */
+  padding-top:.1%;
+  padding-bottom:.1%;
+  padding-left:2.5%;
+  padding-right:2.5%;
+ border-radius: 50px;
   border-style:solid;
   border-color:black;
 }
-.circlefacebookcontact:hover{
-border-color:#800000;
+#facebookiconcontact:hover{
+   border-color: #800000;
+  opacity: 0.7;
+      filter: alpha(opacity=70); /* For IE8 and earlier */
 }
+
 
 #linkediniconcontact
 {
   position:absolute;
   color:black;
-  top:47.5%;
-  left:48%;
+  top:46%;
+  left:47%;
   font-family:linkedinfont;
   font-size:100px;
-}
-
-.circlelinkedincontact{
-  position:absolute;
-  top:45%;
-  left:45%;
-  width: 150px;
-  height: 150px;
-  border-radius: 50px;
+  padding-top:1%;
+  padding-bottom:1%;
+  padding-left:1.5%;
+  padding-right:1.5%;
+ border-radius: 50px;
   border-style:solid;
   border-color:black;
 }
-.circlelinkedincontact:hover{
-border-color:#800000;
+#linkediniconcontact:hover{
+   border-color: #800000;
+  opacity: 0.7;
+      filter: alpha(opacity=70); /* For IE8 and earlier */
 }
 
 #outlookcontact
@@ -486,18 +470,17 @@ border-color:#800000;
   left:63.3%;
   width:10%;
   height:15%;
-}
-
-.circleemailcontact{
-  position:absolute;
-  top:45%;
-  left:65%;
-  width: 150px;
-  height: 150px;
-  border-radius: 50px;
+   padding-top:.25%;
+  padding-bottom:.25%;
+  padding-left:.1%;
+  padding-right:.1%;
+ border-radius: 50px;
   border-style:solid;
   border-color:black;
 }
-.circleemailcontact:hover{
-border-color:#800000;
+
+#outlookcontact:hover{
+   border-color: #800000;
+  opacity: 0.7;
+      filter: alpha(opacity=70); /* For IE8 and earlier */
 }
