@@ -161,12 +161,7 @@ color:#FFFFCC;
 position:absolute;
 top:50%;
 left:26%;
-border-style:solid;
-border-right-width:700px;
-border-bottom-width:.1px;
-border-color:#79818d;
-border-bottom-left-radius:260em;
-border-bottom-right-radius:260em;
+width: 50%;
 }
 
 .Separator
