@@ -317,71 +317,11 @@ font-family: 'Roboto', sans-serif;
 	font-weight:bold;
 }
 
-.circlefacebook {
-	position:absolute;
-	top:91%;
-	left:71%;
-	width: 35px;
-	height: 35px;
-	border-radius: 50px;
-	border-style:solid;
-	border-color:black;
-}
+
 .circlefacebook:hover{
 border-color:#800000;
 }
-.circlefacebookwhite{
-	position:absolute;
-	top:91%;
-	left:71%;
-	width: 35px;
-	height: 35px;
-	border-radius: 50px;
-	border-style:solid;
-	border-color:white;
-}
-.circlefacebookwhite:hover{
-border-color:#556b2f;
-}
 
-.circlefacebookcontact{
-	position:absolute;
-	top:45%;
-	left:25%;
-	width: 150px;
-	height: 150px;
-	border-radius: 50px;
-	border-style:solid;
-	border-color:black;
-}
-.circlefacebookcontact:hover{
-border-color:#800000;
-}
-
-#facebookiconcontact
-{
-	position:absolute;
-	color:black;
-	top:45.5%;
-	left:29%;
-	font-family:facebookfont;
-	font-size:130px;
-	text-decoration:bold;
-}
-
-.circlelinkedincontact{
-	position:absolute;
-	top:45%;
-	left:45%;
-	width: 150px;
-	height: 150px;
-	border-radius: 50px;
-	border-style:solid;
-	border-color:black;
-}
-.circlelinkedincontact:hover{
-border-color:#800000;
-}
 
 #linkediniconcontact
 {
