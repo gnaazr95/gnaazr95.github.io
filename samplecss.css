@@ -161,12 +161,7 @@ color:#FFFFCC;
 position:absolute;
 top:50%;
 left:26%;
-border-style:solid;
-border-right-width:700px;
-border-bottom-width:.1px;
-border-color:#79818d;
-border-bottom-left-radius:260em;
-border-bottom-right-radius:260em;
+width: 50%;
 }
 
 .Separator
@@ -320,10 +315,10 @@ padding-right: 8px;
 #resumepic
 {
   position:absolute;
-  width:15%;
-  height:30%;
-  left:43%;
-  top:50%;
+  width:10%;
+  height:20%;
+  left:42%;
+  top:60%;
 }
 
 #resumepic:hover{
