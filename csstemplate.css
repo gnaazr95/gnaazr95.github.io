@@ -14,7 +14,7 @@ body, html {
 background: #141E30; /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #141E30 , #243B55); /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #141E30 , #243B55); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
+
   min-height: 100%;
 }
 
@@ -139,7 +139,7 @@ color:#FFFFCC;
 }
 
 .BottomInfoBlack a:hover{
-  
+
   color:#800000;
    display: inline-block;
   vertical-align: middle;
@@ -357,9 +357,9 @@ padding-right: 8px;
   color:white;
   font-family: 'Roboto', sans-serif;
   font-weight:normal;
-  font-size:40px;
+  font-size:35px;
   top:20%;
-  left:35%;
+  left:20%;
   line-height: 150%;
 }
 
